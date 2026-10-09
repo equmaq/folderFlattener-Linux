@@ -24,8 +24,7 @@ Then open the Actions for Nautilus Configurator and create a new action with the
 - **Basic > Min items:** `1`
 - **Basic > Max items:** `1`
 - **File types > File type:** `directory`
-- **Basic > Strict match:** `true`
-- **Basic > Use shell:** leave disabled
+- **File types > Strict match:** `true`
 
 Replace `/absolute/path/to/folderFlattener` with the real absolute path.
 Make sure to include `%f` at the end of the command line, as it passes the selected directory to the script. The configuration should look roughly like this:
